@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UserBlogTests" verbose="1">
+    <test name="Api Tests">
+        <packages>
+            <package name="com.api.tests"></package>
+        </packages>
+    </test>
+</suite>

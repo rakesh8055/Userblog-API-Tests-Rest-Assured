@@ -15,9 +15,18 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1XCGwVS5G1FZmlcrn7w96ekcDxD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\rakesh\Rest Assured\userblog-api-tests\src\main\resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -31,7 +40,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.C:/rakesh/Rest Assured/userblog-api-tests/testng.xml">
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="userblog-api-tests" />
       <option name="VM_PARAMETERS" />
@@ -79,6 +88,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C:/rakesh/Rest Assured/userblog-api-tests/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="typicode" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GetUserTest.testGetUser" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="userblog-api-tests" />
       <extension name="coverage">
@@ -97,8 +116,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="typicode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.api.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.api.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.api.tests.UserTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserTests.testGetUsers" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="typicode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.api.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.api.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.api.tests.UserTests" />
+      <option name="METHOD_NAME" value="testGetUsers" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/rakesh/Rest Assured/userblog-api-tests/testng.xml" />
+        <item itemvalue="TestNG.UserTests" />
+        <item itemvalue="TestNG.UserTests.testGetUsers" />
         <item itemvalue="TestNG.GetUserTest.testGetUser" />
       </list>
     </recent_temporary>
@@ -115,5 +172,16 @@
       <updated>1580542903964</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
