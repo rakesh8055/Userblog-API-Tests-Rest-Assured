@@ -3,7 +3,6 @@ package com.api.tests;
 import blog.modules.users.Users;
 import org.testng.annotations.Test;
 
-import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
 
