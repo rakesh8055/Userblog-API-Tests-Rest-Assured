@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2caafe34-c4bf-4de9-a739-2f56f2dfe8aa" name="Default Changelist" comment="" />
+    <list default="true" id="2caafe34-c4bf-4de9-a739-2f56f2dfe8aa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/blog/modules/users/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/blog/modules/users/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/api/tests/UserTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/api/tests/UserTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/blog/modules/users/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/blog/modules/users/Users.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/api/tests/UserTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/api/tests/UserTests.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +32,7 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\rakesh\Rest Assured\userblog-api-tests\src\main\resources" />
+      <recent name="C:\rakesh\Rest Assured\userblog-api-tests\src\test\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -40,7 +47,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/rakesh/Rest Assured/userblog-api-tests/testng.xml">
+  <component name="RunManager" selected="TestNG.UserTests">
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="userblog-api-tests" />
       <option name="VM_PARAMETERS" />
@@ -133,6 +140,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserTests.getUsersData" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="typicode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.api.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.api.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.api.tests.UserTests" />
+      <option name="METHOD_NAME" value="getUsersData" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserTests.testGetUsers" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="typicode" />
       <extension name="coverage">
@@ -153,8 +178,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/rakesh/Rest Assured/userblog-api-tests/testng.xml" />
         <item itemvalue="TestNG.UserTests" />
+        <item itemvalue="TestNG.UserTests.getUsersData" />
+        <item itemvalue="TestNG.C:/rakesh/Rest Assured/userblog-api-tests/testng.xml" />
         <item itemvalue="TestNG.UserTests.testGetUsers" />
         <item itemvalue="TestNG.GetUserTest.testGetUser" />
       </list>
@@ -178,10 +204,28 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/api/tests/UserTests.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/api/tests/UserTests.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

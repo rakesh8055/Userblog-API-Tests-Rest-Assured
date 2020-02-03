@@ -1,7 +1,8 @@
 package blog.modules.users;
 
-import common.BaseConfiguration;
 import io.restassured.response.Response;
+import io.restassured.specification.RequestSpecification;
+
 import static io.restassured.RestAssured.given;
 
 
@@ -9,12 +10,10 @@ public class Users {
 
     private Response response;
     private int userId = 0;
-    BaseConfiguration baseConfiguration = new BaseConfiguration();
-    String baseurl = baseConfiguration.getProperty("baseurl");
 
-    public Users getUsers() {
-        response =  given().
-               when().get(baseurl+"/users").
+    public Users getUsers(RequestSpecification reqSpec) {
+        response =  given().spec(reqSpec).
+               when().get("/users").
                then().extract().response();
         return this;
     }
@@ -25,7 +24,11 @@ public class Users {
     }
 
     public int searchForGivenUserAndFetchUserId(String username){
-        userId = (Integer) response.path("find { it.username == '%s' }.id", username);
-        return userId;
+        try {
+            userId = (Integer) response.path("find { it.username == '%s' }.id", username);
+            return userId;
+        }catch (NullPointerException e){
+            return 0;
+        }
     }
 }
