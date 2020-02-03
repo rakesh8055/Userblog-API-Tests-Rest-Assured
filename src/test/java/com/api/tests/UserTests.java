@@ -3,6 +3,7 @@ package com.api.tests;
 import blog.modules.users.Users;
 import common.RestUtilities;
 import io.restassured.specification.RequestSpecification;
+import io.restassured.specification.ResponseSpecification;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -13,18 +14,20 @@ import static org.testng.Assert.assertTrue;
 public class UserTests {
 
     Users users = new Users();
-    RequestSpecification reqSpec;
+    RequestSpecification withReqSpec;
+    ResponseSpecification withResSpec;
 
     @BeforeClass
     public void setup() {
         RestUtilities restUtilities = new RestUtilities();
-        reqSpec = restUtilities.getResponseSpecification();
+        withReqSpec = restUtilities.getRequestSpecification();
+        withResSpec = restUtilities.getResponseSpecification();
     }
 
     @Test
     public void getUsersData() {
-        users.getUsers(reqSpec)
-             .getUsersIsExecutedSuccessfully();
+        users.getUsers(withReqSpec)
+             .getUsersIsExecutedSuccessfully(withResSpec);
     }
 
     @Test(dependsOnMethods = "getUsersData")
