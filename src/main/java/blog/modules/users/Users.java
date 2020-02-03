@@ -11,15 +11,15 @@ public class Users {
     private Response response;
     private int userId = 0;
 
-    public Users getUsers(RequestSpecification withSpec) {
-        response =  given().spec(withSpec).
+    public Users getUsers(RequestSpecification withReqSpec) {
+        response =  given().spec(withReqSpec).
                when().get("/users").
                then().extract().response();
         return this;
     }
 
-    public Users getUsersIsExecutedSuccessfully(ResponseSpecification withSpec) {
-        response.then().spec(withSpec);
+    public Users getUsersIsExecutedSuccessfully(ResponseSpecification withResSpec) {
+        response.then().spec(withResSpec);
         return this;
     }
 
@@ -27,7 +27,7 @@ public class Users {
         try {
             userId = (Integer) response.path("find { it.username == '%s' }.id", username);
             return userId;
-        }catch (NullPointerException e){
+        }catch(NullPointerException e){
             return 0;
         }
     }
