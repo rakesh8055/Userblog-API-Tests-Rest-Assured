@@ -16,7 +16,7 @@ import java.util.regex.Pattern;
 
 import static org.testng.Assert.assertTrue;
 
-public class UserTests {
+public class GivenScenarioTest {
 
     Users users = new Users();
     Posts posts = new Posts();
@@ -42,14 +42,14 @@ public class UserTests {
     @Test(dependsOnMethods = "getUsersData")
     public void searchForGivenUser() {
         userId = users.searchForGivenUserAndFetchUserId("Samantha");
-        assertTrue(userId > 0,"Given user does not exist in the system");
+                       assertTrue(userId > 0,"Given user does not exist in the system");
     }
 
     @Test(dependsOnMethods = "searchForGivenUser")
     public void getAllPostsForGivenUser(){
         idsForAllPosts = posts.getResponseOfAllThePostsForGivenUserId(withReqSpec, withResSpec, userId)
                               .extractIdsForThesePosts();
-        assertTrue(idsForAllPosts.size() > 0, "No Records returned for given post id");
+                               assertTrue(idsForAllPosts.size() > 0, "No Records returned for given post id");
     }
 
     @Test(dependsOnMethods = "getAllPostsForGivenUser")
@@ -65,8 +65,7 @@ public class UserTests {
         }
         for(String email : emailIds){
             Matcher matcher = pattern.matcher(email);
-            //System.out.println(email +" : "+ matcher.matches());
-            assertTrue(matcher.matches(),"The given email Id = "+email+" is not is correct format");
+            assertTrue(matcher.matches(),"The given email Id = "+email+" is not valid");
         }
     }
 

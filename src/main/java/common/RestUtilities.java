@@ -32,4 +32,5 @@ public class RestUtilities {
         RESPONSE_SPEC = RESPONSE_BUILDER.build();
         return RESPONSE_SPEC;
     }
+
 }

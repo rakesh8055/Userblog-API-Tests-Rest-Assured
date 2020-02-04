@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2caafe34-c4bf-4de9-a739-2f56f2dfe8aa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/api/tests/UserTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/api/tests/UserTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/blog/modules/users/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/blog/modules/users/Users.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/common/RestUtilities.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/common/RestUtilities.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/api/tests/UserTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/api/tests/UserTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/common/RestUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/RestUtilities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/api/tests/UserTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/api/tests/GivenScenarioTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,11 +22,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1XCGwVS5G1FZmlcrn7w96ekcDxD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -37,6 +43,12 @@
       <recent name="C:\rakesh\Rest Assured\userblog-api-tests\src\test\resources" />
       <recent name="C:\rakesh\Rest Assured\userblog-api-tests\src\main\resources" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn compile -Xlint:unchecked" />
+      <command value="mvn clean install" />
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -50,7 +62,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.UserTests">
+  <component name="RunManager" selected="TestNG.C:/rakesh/Rest Assured/userblog-api-tests/testng.xml">
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="userblog-api-tests" />
       <option name="VM_PARAMETERS" />
@@ -108,7 +120,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserTests (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GivenScenarioTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="typicode" />
       <extension name="coverage">
         <pattern>
@@ -117,7 +129,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.api.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.api.tests.UserTests" />
+      <option name="MAIN_CLASS_NAME" value="com.api.tests.GivenScenarioTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -125,7 +137,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserTests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GivenScenarioTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="typicode" />
       <extension name="coverage">
         <pattern>
@@ -134,7 +146,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.api.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.api.tests.UserTests" />
+      <option name="MAIN_CLASS_NAME" value="com.api.tests.GivenScenarioTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -142,7 +154,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserTests.getUsersData" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GivenScenarioTest.getAllPostsForGivenUser" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="typicode" />
       <extension name="coverage">
         <pattern>
@@ -151,8 +163,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.api.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.api.tests.UserTests" />
-      <option name="METHOD_NAME" value="getUsersData" />
+      <option name="MAIN_CLASS_NAME" value="com.api.tests.GivenScenarioTest" />
+      <option name="METHOD_NAME" value="getAllPostsForGivenUser" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -160,7 +172,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserTests.searchForGivenUser" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GivenScenarioTest.searchForGivenUser" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="typicode" />
       <extension name="coverage">
         <pattern>
@@ -169,7 +181,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.api.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.api.tests.UserTests" />
+      <option name="MAIN_CLASS_NAME" value="com.api.tests.GivenScenarioTest" />
       <option name="METHOD_NAME" value="searchForGivenUser" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -180,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.UserTests" />
-        <item itemvalue="TestNG.UserTests.searchForGivenUser" />
-        <item itemvalue="TestNG.UserTests (1)" />
-        <item itemvalue="TestNG.UserTests.getUsersData" />
         <item itemvalue="TestNG.C:/rakesh/Rest Assured/userblog-api-tests/testng.xml" />
+        <item itemvalue="TestNG.GivenScenarioTest" />
+        <item itemvalue="TestNG.GivenScenarioTest.getAllPostsForGivenUser" />
+        <item itemvalue="TestNG.GivenScenarioTest.searchForGivenUser" />
+        <item itemvalue="TestNG.GivenScenarioTest" />
       </list>
     </recent_temporary>
   </component>
@@ -231,11 +243,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/com/api/utils/HelperUtils.java</url>
           <line>11</line>
           <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/api/tests/UserTests.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
