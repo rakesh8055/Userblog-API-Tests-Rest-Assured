@@ -14,6 +14,10 @@ public class BaseConfiguration {
         }
     }
 
+    /**
+     * @param key
+     * @return : extracts value for given key from the properties file
+     */
     public String getProperty(String key) {
         return this.configFile.getProperty(key);
     }
