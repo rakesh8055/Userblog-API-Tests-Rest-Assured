@@ -16,22 +16,10 @@ import java.util.regex.Pattern;
 
 import static org.testng.Assert.assertTrue;
 
-public class GivenScenarioTest {
+public class GivenScenarioTest extends BaseTest {
 
-    Users users = new Users();
-    Posts posts = new Posts();
-    Comments comments = new Comments();
-    RequestSpecification withReqSpec;
-    ResponseSpecification withResSpec;
     private int userId = 0;
     private List<Integer> idsForAllPosts = new ArrayList<Integer>();
-
-    @BeforeClass
-    public void setup() {
-        RestUtilities restUtilities = new RestUtilities();
-        withReqSpec = restUtilities.getRequestSpecification();
-        withResSpec = restUtilities.getResponseSpecification();
-    }
 
     @Test
     public void getUsersData() {
