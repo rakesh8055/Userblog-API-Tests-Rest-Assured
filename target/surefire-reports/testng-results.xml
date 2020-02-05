@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="UserBlogTests" duration-ms="17799" started-at="2020-02-05T11:24:55 IST" finished-at="2020-02-05T11:25:13 IST">
+    <groups>
+    </groups>
+    <test name="Api Tests" duration-ms="17799" started-at="2020-02-05T11:24:55 IST" finished-at="2020-02-05T11:25:13 IST">
+      <class name="com.api.tests.GivenScenarioTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.api.tests.GivenScenarioTest@14bf9759]" name="setup" is-config="true" duration-ms="3402" started-at="2020-02-05T11:24:55 IST" finished-at="2020-02-05T11:24:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getUsersData()[pri:0, instance:com.api.tests.GivenScenarioTest@14bf9759]" name="getUsersData" duration-ms="7153" started-at="2020-02-05T11:24:59 IST" finished-at="2020-02-05T11:25:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUsersData -->
+        <test-method status="PASS" signature="searchForGivenUser()[pri:0, instance:com.api.tests.GivenScenarioTest@14bf9759]" name="searchForGivenUser" duration-ms="2264" started-at="2020-02-05T11:25:06 IST" depends-on-methods="com.api.tests.GivenScenarioTest.getUsersData" finished-at="2020-02-05T11:25:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForGivenUser -->
+        <test-method status="PASS" signature="getAllPostsForGivenUser()[pri:0, instance:com.api.tests.GivenScenarioTest@14bf9759]" name="getAllPostsForGivenUser" duration-ms="564" started-at="2020-02-05T11:25:08 IST" depends-on-methods="com.api.tests.GivenScenarioTest.searchForGivenUser" finished-at="2020-02-05T11:25:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllPostsForGivenUser -->
+        <test-method status="PASS" signature="getCommentsForGivenPostsAndVerifyEmailFormat()[pri:0, instance:com.api.tests.GivenScenarioTest@14bf9759]" name="getCommentsForGivenPostsAndVerifyEmailFormat" duration-ms="4207" started-at="2020-02-05T11:25:09 IST" depends-on-methods="com.api.tests.GivenScenarioTest.getAllPostsForGivenUser" finished-at="2020-02-05T11:25:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCommentsForGivenPostsAndVerifyEmailFormat -->
+      </class> <!-- com.api.tests.GivenScenarioTest -->
+    </test> <!-- Api Tests -->
+  </suite> <!-- UserBlogTests -->
+</testng-results>

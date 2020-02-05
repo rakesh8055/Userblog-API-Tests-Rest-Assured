@@ -40,4 +40,10 @@ public class Comments {
          return response.jsonPath().getList("email");
     }
 
+    /**
+     * @return : returns response body as String
+     */
+    public String getResponseBody() {
+        return response.getBody().asString();
+    }
 }

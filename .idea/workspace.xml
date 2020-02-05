@@ -3,8 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="2caafe34-c4bf-4de9-a739-2f56f2dfe8aa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/blog/modules/comments/Comments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/blog/modules/comments/Comments.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/blog/modules/posts/Posts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/blog/modules/posts/Posts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/blog/modules/users/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/blog/modules/users/Users.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/common/RestUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/RestUtilities.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/api/tests/UserTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/api/tests/GivenScenarioTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/api/tests/GivenScenarioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/api/tests/GivenScenarioTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +65,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/rakesh/Rest Assured/userblog-api-tests/testng.xml">
+  <component name="RunManager" selected="TestNG.JsonSchemaValidations">
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="userblog-api-tests" />
       <option name="VM_PARAMETERS" />
@@ -172,7 +175,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GivenScenarioTest.searchForGivenUser" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="JsonSchemaValidations" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="typicode" />
       <extension name="coverage">
         <pattern>
@@ -181,8 +184,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.api.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.api.tests.GivenScenarioTest" />
-      <option name="METHOD_NAME" value="searchForGivenUser" />
+      <option name="MAIN_CLASS_NAME" value="com.api.tests.JsonSchemaValidations" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsonSchemaValidations.verifyJsonSchemaForGetUserDetails" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="typicode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.api.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.api.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.api.tests.JsonSchemaValidations" />
+      <option name="METHOD_NAME" value="verifyJsonSchemaForGetUserDetails" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -192,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.JsonSchemaValidations" />
+        <item itemvalue="TestNG.JsonSchemaValidations.verifyJsonSchemaForGetUserDetails" />
         <item itemvalue="TestNG.C:/rakesh/Rest Assured/userblog-api-tests/testng.xml" />
         <item itemvalue="TestNG.GivenScenarioTest" />
         <item itemvalue="TestNG.GivenScenarioTest.getAllPostsForGivenUser" />
-        <item itemvalue="TestNG.GivenScenarioTest.searchForGivenUser" />
-        <item itemvalue="TestNG.GivenScenarioTest" />
       </list>
     </recent_temporary>
   </component>

@@ -3,7 +3,6 @@ package blog.modules.posts;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
-import org.testng.Reporter;
 
 import java.util.List;
 
@@ -34,5 +33,12 @@ public class Posts {
      */
     public List<Integer> extractIdsForThesePosts(){
         return response.jsonPath().getList("id");
+    }
+
+    /**
+     * @return : responseBody as String
+     */
+    public String getResponseBody() {
+        return response.getBody().asString();
     }
 }

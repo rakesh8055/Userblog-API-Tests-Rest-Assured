@@ -42,4 +42,8 @@ public class Users {
             return 0;
         }
     }
+
+    public String getResponseBody() {
+       return response.getBody().asString();
+    }
 }
