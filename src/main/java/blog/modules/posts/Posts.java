@@ -4,6 +4,7 @@ import dto.PostsPojo;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
+import org.testng.Reporter;
 
 import java.util.List;
 
@@ -44,11 +45,16 @@ public class Posts {
     }
 
     public int createANewPostForAUserId(RequestSpecification withReqSpec, PostsPojo post) {
-      return given().spec(withReqSpec)
+        int statuscode;
+        Response res = given().spec(withReqSpec)
                  .accept("application/json, text/plain, */*")
                  .body(post)
                .when()
                  .post("/posts")
-               .then().extract().statusCode();
+               .then().extract().response();
+        statuscode = res.getStatusCode();
+        //Reporter.log("Create new post response => "+ res.asString());
+        Reporter.log("Status code returned = "+statuscode);
+        return res.getStatusCode();
     }
 }
