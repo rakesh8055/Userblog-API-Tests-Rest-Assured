@@ -7,6 +7,7 @@ import common.RestUtilities;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import java.util.ArrayList;
@@ -21,15 +22,20 @@ public class GivenScenarioTest extends BaseTest {
     private int userId = 0;
     private List<Integer> idsForAllPosts = new ArrayList<Integer>();
 
+    @DataProvider(name = "username")
+    public Object[][] dataProviderMethod() {
+        return new Object[][] { { "Samantha" }};
+    }
+
     @Test
     public void getUsersData() {
         users.getUsers(withReqSpec)
              .getUsersIsExecutedSuccessfully(withResSpec);
     }
 
-    @Test(dependsOnMethods = "getUsersData")
-    public void searchForGivenUser() {
-        userId = users.searchForGivenUserAndFetchUserId("Samantha");
+    @Test(dependsOnMethods = "getUsersData", dataProvider = "username")
+    public void searchForGivenUser(String username) {
+        userId = users.searchForGivenUserAndFetchUserId(username);
                        assertTrue(userId > 0,"Given user does not exist in the system");
     }
 

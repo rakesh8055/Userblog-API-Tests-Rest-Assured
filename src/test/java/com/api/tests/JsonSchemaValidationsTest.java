@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
 import static org.hamcrest.MatcherAssert.assertThat;
 
-public class JsonSchemaValidations extends BaseTest{
+public class JsonSchemaValidationsTest extends BaseTest{
 
     @Test
     public void verifyJsonSchemaForGetUserDetails() {

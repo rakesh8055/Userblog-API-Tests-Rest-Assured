@@ -1,5 +1,6 @@
 package blog.modules.posts;
 
+import dto.PostsPojo;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
@@ -40,5 +41,14 @@ public class Posts {
      */
     public String getResponseBody() {
         return response.getBody().asString();
+    }
+
+    public int createANewPostForAUserId(RequestSpecification withReqSpec, PostsPojo post) {
+      return given().spec(withReqSpec)
+                 .accept("application/json, text/plain, */*")
+                 .body(post)
+               .when()
+                 .post("/posts")
+               .then().extract().statusCode();
     }
 }
