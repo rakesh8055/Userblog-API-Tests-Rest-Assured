@@ -43,7 +43,7 @@ public class GivenScenarioTest extends BaseTest {
     @Test(dependsOnMethods = "getAllPostsForGivenUser")
     public void getCommentsForGivenPostsAndVerifyEmailFormat() {
         List<String> emailIds = new ArrayList<String>();
-        //Used the below regex assuming there is no specific validation for email format.
+        //Used the below regex assuming there is no specific validation on characters allowed for email format.
         String regex = "^[a-zA-Z0-9_!#$%&'*+/=?`{|}~^.-]+@[a-zA-Z0-9.-]+$";
         Pattern pattern = Pattern.compile(regex);
 

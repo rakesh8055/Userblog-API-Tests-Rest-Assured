@@ -17,9 +17,6 @@ public class Comments {
      * @param withResSpec
      * @param postId
      * @return : response of all comments
-     * Have Commented .spec(withResSpec) which validates the response time to be below 5seconds because
-     * the comments service was taking more than a minute to execute. It should ideally fail but since the testcase
-     * was to validate all email id's Hence i commented to validate the email id format
      */
     public Comments getResponseOfAllTheCommentsForGivenPost(RequestSpecification withReqSpec, ResponseSpecification withResSpec, int postId) {
             response = given().spec(withReqSpec)
@@ -27,7 +24,7 @@ public class Comments {
                        .when()
                               .get("/comments")
                        .then()
-                              //.spec(withResSpec)
+                              .spec(withResSpec)
                               .extract()
                               .response();
             return this;

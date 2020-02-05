@@ -23,7 +23,7 @@ public class Users {
 
     /**
      * @param withResSpec
-     * @return
+     * @return validates the response
      */
     public Users getUsersIsExecutedSuccessfully(ResponseSpecification withResSpec) {
         response.then().spec(withResSpec);

@@ -2,14 +2,69 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2caafe34-c4bf-4de9-a739-2f56f2dfe8aa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/blog/modules/comments/Comments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/blog/modules/comments/Comments.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/blog/modules/posts/Posts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/blog/modules/posts/Posts.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/blog/modules/users/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/blog/modules/users/Users.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/common/RestUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/RestUtilities.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/api/tests/GivenScenarioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/api/tests/GivenScenarioTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/blog/modules/comments/Comments.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/blog/modules/posts/Posts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/blog/modules/users/Users.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/comments.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/common/BaseConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/common/RestUtilities.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/emptydata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/userdetails.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/userposts.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/UserBlogTests/Api Tests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/UserBlogTests/Api Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/UserBlogTests/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.api.tests.GivenScenarioTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/UserBlogTests/Api Tests.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/UserBlogTests/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/UserBlogTests/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/UserBlogTests/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/UserBlogTests/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/UserBlogTests/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/UserBlogTests/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/UserBlogTests/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/UserBlogTests/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/UserBlogTests/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/UserBlogTests/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/typicode.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/api/tests/BaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/api/tests/GivenScenarioTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/api/tests/OtherTestsAroundTheScenario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/userblog-api-tests-1.0-SNAPSHOT.jar" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,9 +90,20 @@
   </component>
   <component name="ProjectId" id="1XCGwVS5G1FZmlcrn7w96ekcDxD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
@@ -53,19 +119,7 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="TestNG.JsonSchemaValidations">
+  <component name="RunManager" selected="TestNG.JsonSchemaValidations.verifyJsonSchemaForGetCommentsForValidPostId (1)">
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="userblog-api-tests" />
       <option name="VM_PARAMETERS" />
@@ -140,41 +194,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GivenScenarioTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="typicode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.api.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.api.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.api.tests.GivenScenarioTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GivenScenarioTest.getAllPostsForGivenUser" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="typicode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.api.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.api.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.api.tests.GivenScenarioTest" />
-      <option name="METHOD_NAME" value="getAllPostsForGivenUser" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="JsonSchemaValidations" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="typicode" />
       <extension name="coverage">
@@ -186,6 +205,42 @@
       <option name="PACKAGE_NAME" value="com.api.tests" />
       <option name="MAIN_CLASS_NAME" value="com.api.tests.JsonSchemaValidations" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsonSchemaValidations.verifyJsonSchemaForGetCommentsForValidPostId (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Userblog-API-Tests-Rest-Assured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.api.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.api.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.api.tests.JsonSchemaValidations" />
+      <option name="METHOD_NAME" value="verifyJsonSchemaForGetCommentsForValidPostId" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsonSchemaValidations.verifyJsonSchemaForGetCommentsForValidPostId" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Userblog-API-Tests-Rest-Assured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.api.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.api.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.api.tests.JsonSchemaValidations" />
+      <option name="METHOD_NAME" value="verifyJsonSchemaForGetCommentsForValidPostId" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -212,11 +267,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.JsonSchemaValidations.verifyJsonSchemaForGetCommentsForValidPostId (1)" />
+        <item itemvalue="TestNG.JsonSchemaValidations.verifyJsonSchemaForGetCommentsForValidPostId" />
         <item itemvalue="TestNG.JsonSchemaValidations" />
         <item itemvalue="TestNG.JsonSchemaValidations.verifyJsonSchemaForGetUserDetails" />
         <item itemvalue="TestNG.C:/rakesh/Rest Assured/userblog-api-tests/testng.xml" />
-        <item itemvalue="TestNG.GivenScenarioTest" />
-        <item itemvalue="TestNG.GivenScenarioTest.getAllPostsForGivenUser" />
       </list>
     </recent_temporary>
   </component>
@@ -230,8 +285,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580542903964</updated>
+      <workItem from="1580920707926" duration="3409000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -245,6 +304,32 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="21" key="#Project_Structure" timestamp="1580922555375">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="21" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1580922555375" />
+    <state width="1322" height="122" key="GridCell.Tab.0.bottom" timestamp="1580924118413">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="122" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580924118413" />
+    <state width="1322" height="122" key="GridCell.Tab.0.center" timestamp="1580924118413">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="122" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580924118413" />
+    <state width="1322" height="122" key="GridCell.Tab.0.left" timestamp="1580924118412">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="122" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580924118412" />
+    <state width="1322" height="122" key="GridCell.Tab.0.right" timestamp="1580924118413">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="122" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580924118413" />
+    <state x="384" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1580920990383">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="384" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1580920990383" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -263,6 +348,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/com/api/utils/HelperUtils.java</url>
           <line>11</line>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/api/tests/JsonSchemaValidations.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

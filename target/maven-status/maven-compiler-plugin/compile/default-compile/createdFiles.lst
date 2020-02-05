@@ -1,5 +1,0 @@
-blog\modules\posts\Posts.class
-common\RestUtilities.class
-blog\modules\users\Users.class
-blog\modules\comments\Comments.class
-common\BaseConfiguration.class
