@@ -5,9 +5,8 @@ Given Test Scenario to Automate:
 2) Use the details fetched to make a search for the posts written by the user.
 3) For each post, fetch the comments and validate if the emails in the comment
    section are in the proper format.
-4) Think of various scenarios for the test workflow, all the things that can go wrong.
-5) Upload your test to Github
-6) Execute the tests successfully on Circle CI.
+4) Various scenarios for the test workflow, all the things that can go wrong.
+5) Execute the tests successfully on Circle CI.
 
 Validations & Approach:
 
